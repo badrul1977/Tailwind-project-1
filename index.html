@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/badal.png" type="image/x-icon">
+    <title>Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <!-- <h1 class="text-3xl font-bold underline text-clifford">
+        Hello world!
+    </h1> -->
+    <header class="bg-yellow-100">
+        <section class="md:flex items-center justify-around py-12 px-4 container">
+            <div class="space-y-5 s">
+                <h1 class="text-7xl font-bold uppercase"><span class="text-yellow-400 py-4">be the penguin</span><br><span class="text-gray-800">of winter</span></h1>
+                <p class="w-2/3 py-2" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, itaque optio? Voluptas beatae facilis dolorem, aperiam quo reiciendis magnam iure.</p>
+                <button class="text-white px-14 py-4 rounded-xl bg-green-500 uppercase font-medium bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 s">buy now</button>
+            </div>
+            <div>
+                <img src="./images/model.png" alt="">
+            </div>
+        </section>
+
+
+    </header>
+    <main>
+        <!-- women jackets -->
+        <section class="container px-8 mx-auto my-10">
+            <h2 class="text-yellow-400 uppercase text-3xl font-bold mb-4 text-center">women jackets</h2>
+           <div class="grid lg:grid-cols-3 gap-7">
+                <div class="shadow-lg rounded-2xl p-4 space-y-4">
+                    <div class="bg-gray-200 rounded-2xl py-6">
+                        <img class="h-64 mx-auto" src="./images/jacket-1.png">
+                    </div>
+                    <h3 class="text-3xl font-bold capitalize">
+                        yollo cort jackets
+                    </h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat vero magnam ipsum aliquid nemo cumque.</p>
+                    <div class="lg:flex justify-between">
+                        <h2 class="text-5xl text-yellow-400 font-bold">
+                            $234
+                        </h2>
+                        <button class="text-white px-14 py-4 my-3 rounded-xl bg-green-500 uppercase font-medium bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">buy now</button>
+                    </div>
+                </div>
+                <div class="shadow-lg rounded-2xl p-4 space-y-4">
+                    <div class="bg-gray-200 rounded-2xl py-6">
+                        <img class="h-64 mx-auto" src="./images/jacket-3.png">
+                    </div>
+                    <h3 class="text-3xl font-bold capitalize">
+                        yollo cort jackets
+                    </h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat vero magnam ipsum aliquid nemo cumque.</p>
+                    <div class="lg:flex justify-between">
+                        <h2 class="text-5xl text-yellow-400 font-bold">
+                            $234
+                        </h2>
+                        <button class="text-white px-14 py-4 my-3 rounded-xl bg-green-500 uppercase font-medium bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">buy now</button>
+                    </div>
+                </div>
+                <div class="shadow-lg rounded-2xl p-4 space-y-4">
+                    <div class="bg-gray-200 rounded-2xl py-6">
+                        <img class="h-64 mx-auto" src="./images/jacket-2.png">
+                    </div>
+                    <h3 class="text-3xl font-bold capitalize">
+                        yollo cort jackets
+                    </h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat vero magnam ipsum aliquid nemo cumque.</p>
+                    <div class="lg:flex justify-between">
+                        <h2 class="text-5xl text-yellow-400 font-bold">
+                            $234
+                        </h2>
+                        <button class="text-white px-14 py-4 my-3 rounded-xl bg-green-500 uppercase font-medium bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">buy now</button>
+                    </div>
+                </div>
+           </div>
+        </section>
+        <!-- men jackets -->
+        <section class="container px-8 mx-auto my-10">
+            <h2 class="text-yellow-400 uppercase text-3xl font-bold mb-4 text-center">men jackets</h2>
+           <div class="grid lg:grid-cols-3 gap-7">
+                <div class="shadow-lg rounded-2xl p-4 space-y-4">
+                    <div class="bg-gray-200 rounded-2xl py-6">
+                        <img class="h-64 mx-auto" src="./images/jacket-4.png">
+                    </div>
+                    <h3 class="text-3xl font-bold capitalize">
+                        yollo cort jackets
+                    </h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat vero magnam ipsum aliquid nemo cumque.</p>
+                    <div class="lg:flex justify-between">
+                        <h2 class="text-5xl text-yellow-400 font-bold">
+                            $234
+                        </h2>
+                        <button class="text-white px-14 py-4 my-3 rounded-xl bg-green-500 uppercase font-medium bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">buy now</button>
+                    </div>
+                </div>
+                <div class="shadow-lg rounded-2xl p-4 space-y-4">
+                    <div class="bg-gray-200 rounded-2xl py-6">
+                        <img class="h-64 mx-auto" src="./images/jacket-5.png">
+                    </div>
+                    <h3 class="text-3xl font-bold capitalize">
+                        yollo cort jackets
+                    </h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat vero magnam ipsum aliquid nemo cumque.</p>
+                    <div class="lg:flex justify-between">
+                        <h2 class="text-5xl text-yellow-400 font-bold">
+                            $234
+                        </h2>
+                        <button class="text-white px-14 py-4 my-3 rounded-xl bg-green-500 uppercase font-medium bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">buy now</button>
+                    </div>
+                </div>
+                <div class="shadow-lg rounded-2xl p-4 space-y-4">
+                    <div class="bg-gray-200 rounded-2xl py-6">
+                        <img class="h-64 mx-auto" src="./images/jacket-6.png">
+                    </div>
+                    <h3 class="text-3xl font-bold capitalize">
+                        yollo cort jackets
+                    </h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat vero magnam ipsum aliquid nemo cumque.</p>
+                    <div class="lg:flex justify-between">
+                        <h2 class="text-5xl text-yellow-400 font-bold">
+                            $234
+                        </h2>
+                        <button class="text-white px-14 py-4 my-3 rounded-xl bg-green-500 uppercase font-medium bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">buy now</button>
+                    </div>
+                </div>
+           </div>
+        </section>
+        <section class="py-12 px-8 mx-auto">
+            <div class="lg:grid grid-cols-2 my-12 justify-center">
+                <div class="lg:flex items-center">
+                    <div class="p-4">
+                        <img class="w-16 h-16" src="./images/image 12.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="text-xl text-gray-700 font-bold capitalize">
+                            Find The Perfect Fit</h5>
+                        <p class="w-4/5 text-gray-700 font-normal">Everybody is different, which is why we offer styles for every body.</p>
+                    </div>
+                </div>
+                <div class="row-span-3">
+                    <img src="./images/shopping.png" alt="">
+                </div>  
+                <div class="lg:flex items-center">
+                    <div class="p-4">
+                        <img class="w-16 h-16" src="./images/image 13.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="text-xl text-gray-700 font-bold capitalize">Free Exchanges</h5>
+                        <p class="w-4/5 text-gray-700 font-normal">One of the many reasons you can shop with peace of mind.</p>
+                    </div>
+                </div>  
+                <div class="lg:flex items-center">
+                    <div class="p-4">
+                        <img class="w-16 h-16" src="./images/image 14.png" alt="">
+                    </div>
+                    <div>
+                        <h5 class="text-xl text-gray-700 font-bold capitalize">Contact Our Seller</h5>
+                        <p class="w-4/5 text-gray-700 font-normal">They are here to help you. That's quite literally what we pay them for.</p>
+                    </div>
+                </div>  
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
